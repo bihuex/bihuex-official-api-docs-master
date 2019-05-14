@@ -314,7 +314,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
 ```
 **请求方式**
 
-    POST
+         POST
 
 **请求参数**  
 
@@ -362,7 +362,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
 
 **请求方式**
 
-    POST
+     POST
 
 **请求参数**  
 
@@ -401,13 +401,13 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
  **HTTP请求**
  
  ```http
-     # Request
+       # Request
        http://xx.com/api/v2/user/queryOrder
  ```
  
  **请求方式**
  
-     POST
+          POST
  
  **请求参数**  
  
@@ -468,13 +468,13 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
    **HTTP请求**
    
    ```http
-       # Request
-          http://xx.com/api/v2/user/queryOrderStatus
+         # Request
+         http://xx.com/api/v2/user/queryOrderStatus
    ```
    
    **请求方式**
    
-     POST
+          POST
    
    **请求参数**  
    
@@ -544,12 +544,12 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
    
    ```http
        # Request
-          http://xx.com/api/v2/ticker/getTrades
+       http://xx.com/api/v2/ticker/getTrades
    ```
    
    **请求方式**
    
-      POST
+        POST
    
    **请求参数**  
    
@@ -612,11 +612,11 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
      
      ```http
          # Request
-             http://xx.com/api/v2/ticker/getDepth
+         http://xx.com/api/v2/ticker/getDepth
      ```
    **请求方式**
      
-       POST
+         POST
      
    **请求参数**  
      
@@ -685,13 +685,13 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
    
    **HTTP请求**
       
-      ```http
+   ```http
           # Request
-              http://xx.com/api/v2/ticker/getTicker
-      ```
+          http://xx.com/api/v2/ticker/getTicker
+   ```
    **请求方式**
       
-        POST
+           POST
       
    **请求参数**  
       
@@ -750,13 +750,13 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
      
    **HTTP请求**
         
-        ```http
+   ```http
             # Request
-                 http://xx.com/api/v2/market
-        ```
+            http://xx.com/api/v2/market
+   ```
    **请求方式**
         
-        POST
+            POST
         
    **请求参数**  
         
@@ -812,12 +812,12 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
          
    ```http
              # Request
-                  http://xx.com/api/v2/ticker/getAllCoin
+               http://xx.com/api/v2/ticker/getAllCoin
    ```
    
   **请求方式**
          
-           POST
+               POST
          
   **请求参数**  
          
@@ -884,12 +884,12 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
   **HTTP请求**
            
   ```http
-               # Request
-                    http://xx.com/api/v2/user/getMyTradeLog
+         # Request
+         http://xx.com/api/v2/user/getMyTradeLog
   ```
   **请求方式**
            
-     POST
+            POST
     
            
   **请求参数**  
@@ -952,9 +952,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
       
       更多返回错误代码请看首页的错误代码描述 
         
-    
-  
-  
+ 
   
   ### 13. 获取用户所有余额
     
@@ -963,12 +961,12 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
    **HTTP请求**
              
    ```http
-           # Request
-           http://xx.com/api/v2/user/getAllBalance
+         # Request
+         http://xx.com/api/v2/user/getAllBalance
    ```
    **请求方式**
              
-    POST
+          POST
       
              
    **请求参数**  
@@ -1044,7 +1042,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
    ```
    **请求方式**
              
-               POST
+           POST
       
              
    **请求参数**  
