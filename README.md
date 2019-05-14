@@ -343,9 +343,9 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
 | market | String | 是 | 币种名称后面需要加下划线和板块名称(eth_btc) |
 | accessKey | String | 是 | 接口密钥 |
 | type | String | 是 | （1/2 买/卖） |
-| price | BigDecimal | 是 | 价格  |
-| amount | BigDecimal | 是 | 数量 |
-| payPassWord | String | 是 | 支付密码  |
+| price | String | 是 | 价格  |
+| amount | String | 是 | 数量 |
+| payPassWord | String |  |   |
 
 
 ```javascript
@@ -434,7 +434,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
  | 参数名 | 参数类型  | 必填 | 字段描述|描述 |
  | ------------- |----|----|----|----|
  | market | String | 是 |币种名称| 币种名称后面需要加下划线和板块名称(eth_btc) |
- | accessKey | String | 是 | | 接口密钥 |
+ | accessKey | String | 是 | |  |
  
  
  ```javascript
