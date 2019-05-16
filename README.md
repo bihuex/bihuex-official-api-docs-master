@@ -838,7 +838,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
          
    ```http
        # Request
-       http://xx.com/api/v2/ 
+       http://xx.com/api/v2/ticker/getAllCoin 
    ```
    
   **请求方式**
