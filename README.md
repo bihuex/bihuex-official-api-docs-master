@@ -160,10 +160,7 @@ HTTP状态码200表示成功响应，并可能包含内容。如果响应含有�
 * 500 Internal Server Error – We had a problem with our server 服务器内部错误
 
 * 如果失败，response body 带有错误描述信息
-### 分页
 
-部分返回数据集的REST请求支持使用游标分页。
-游标分页允许在结果的当前页面之前和之后获取结果，并且非常适合于实时数据。根据当前的返回结果，后续请求可以在此基础之上指定请求数据的方向，可以请求在这之前和之后的数据。before和after游标可通过响应头CB_BEFORE和CB_AFTER使用。
 
 **例子**
 
